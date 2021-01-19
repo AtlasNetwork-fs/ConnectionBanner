@@ -1,7 +1,7 @@
 AddEventHandler('playerConnecting', function(name, skr, d)
     d.defer()
     Wait(50)
-    --Stuff bellow can be edited ;) if u need help jus msg me NotCobraaa#0001
+    --thanks for the bellow 123, edit stuff here
     d.presentCard([==[{
 		"type": "AdaptiveCard",
 		"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
