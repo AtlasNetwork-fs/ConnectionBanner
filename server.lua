@@ -1,7 +1,7 @@
 AddEventHandler('playerConnecting', function(name, skr, d)
     d.defer()
     Wait(50)
-    --thanks for the bellow 123, edit stuff here
+    -- Nom Nom Nom
     d.presentCard([==[{
 		"type": "AdaptiveCard",
 		"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
@@ -12,7 +12,7 @@ AddEventHandler('playerConnecting', function(name, skr, d)
 				"items": [
 					{
 						"type": "TextBlock",
-						"text": "Welcome to Golden State Roleplay",
+						"text": "Golden State Roleplay Community
 						"wrap": true,
 						"fontType": "Default",
 						"size": "ExtraLarge",
@@ -29,7 +29,7 @@ AddEventHandler('playerConnecting', function(name, skr, d)
 					},
 					{
 						"type": "TextBlock",
-						"text": "To begin select the play button!",
+						"text": "Select from multiple buttons bellow!
 						"wrap": true,
 						"color": "Light",
 						"size": "Medium"
@@ -53,7 +53,7 @@ AddEventHandler('playerConnecting', function(name, skr, d)
 											{
 												"type": "Action.OpenUrl",
 												"title": "Discord",
-												"url": "https://discord.gg/gstrp",
+												"url": "https://discord.gg/gstrp
 												"style": "positive",
 												"iconUrl": ""
 											}
@@ -77,7 +77,7 @@ AddEventHandler('playerConnecting', function(name, skr, d)
 										]
 									}
 								],
-								"backgroundImage": "https://imgur.com/zthdeo8"
+								"backgroundImage": {}
 							},
 							{
 								"type": "Column",
@@ -88,9 +88,9 @@ AddEventHandler('playerConnecting', function(name, skr, d)
 										"actions": [
 											{
 												"type": "Action.OpenUrl",
-												"title": "Instagram",
+												"title": "CAD/MDT
 												"style": "positive",
-												"url": "https://www.instagram.com/gstrp/?hl=en-gb"
+												"url": "https://app.sonorancad.com/#/?comid=GSTRP&name=Golden%20State%20Roleplay&subtitle=GSTRPs%20Official%20CAD/MDT&img=http://147.135.36.39/logo.png&bkgLogin=bd9015&bkgLoginBox=191919"
 											}
 										]
 									}
